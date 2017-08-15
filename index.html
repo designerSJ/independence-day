@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happy Independence Day</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="particles-js1" class="orange"></div>
+    <div class="white">
+      <p>HAPPY
+        <span class="typer" id="main" data-words="INDEPENDENCE DAY" data-colors="black" data-delay="100" data-deleteDelay="1000"></span>
+        <span class="cursor" data-owner="main"></span>
+      </p>
+    </div>
+    <div class="green" id="particles-js2"></div>
+  </div>
+
+    <script src="js/particles.js"></script>
+    <script src="js/typer.js"></script>
+    <script>
+        particlesJS.load('particles-js1', 'particles.json');
+        particlesJS.load('particles-js2', 'particles.json');
+    </script>
+</body>
+</html>

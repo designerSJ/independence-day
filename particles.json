@@ -1,0 +1,52 @@
+{
+    "particles":{
+        "number":{
+            "value":400,
+            "density":{
+                "enable":true,
+                "value_area":3000
+            }
+        },
+
+        "color":{
+            "value":"#fff"
+        },
+
+        "shape":{
+            "type":"star",
+            "stroke":{
+                "width":"3",
+                "color":"rgba(255,255,255,0.5)"
+            }
+        },
+        "opacity":{
+           "value":0.5,
+           "random":false,
+           "anim":{
+               "enable": true,
+               "speed": 1,
+               "opacity_min":0.2,
+               "sync": false
+           }
+        },
+        "size":{
+            "value":2
+        },
+        "move":{
+            "enable":true,
+            "speed": 4,
+            "bounce":false
+        }
+    },
+    "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "resize": true
+    },
+  "retina_detect": false
+}
+}
